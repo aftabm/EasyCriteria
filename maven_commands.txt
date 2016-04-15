@@ -1,0 +1,8 @@
+#maven ver 3x
+clean pacakge
+generate-sources
+-Dmaven.test.skip=true
+-DskipTests=true
+-Dtest=MyTest  
+mvn --help 
+-Dplugin=install help:describe                                
